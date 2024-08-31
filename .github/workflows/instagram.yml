@@ -12,5 +12,5 @@ jobs:
     steps:
     - uses: Yakov5776/gh-apkmirror-dl@v1.2
       with:
-        org: 'Instagram'
-        repo: 'Instagram'
+        org: 'instagram'
+        repo: 'instagram'
