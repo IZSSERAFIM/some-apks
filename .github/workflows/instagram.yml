@@ -12,5 +12,8 @@ jobs:
     steps:
     - uses: Yakov5776/gh-apkmirror-dl@v1.2
       with:
-        org: 'instagram'
-        repo: 'instagram'
+        org: 'fidelity-investments'
+        repo: 'fidelity-investments'
+        version: '3.96'
+        bundle: false
+        filename: 'fidelity.apk'
