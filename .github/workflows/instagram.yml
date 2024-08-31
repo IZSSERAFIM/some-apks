@@ -1,0 +1,22 @@
+name: instagram apk
+
+on:
+  schedule:
+    # 此处是UTC时间，对应北京时间早八点
+    - cron : '00 00 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    -  uses: Yakov5776/gh-apkmirror-dl@v1.2
+       with:
+        org: 'Instagram'
+        repo: 'Instagram'
+        filename: 'Instagram.apk'
