@@ -14,4 +14,3 @@ jobs:
       with:
         org: 'Instagram'
         repo: 'Instagram'
-        filename: 'Instagram.apk'
